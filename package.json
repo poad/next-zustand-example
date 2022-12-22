@@ -29,7 +29,8 @@
     "next": "^13",
     "react": "*",
     "react-dom": "*",
-    "web-vitals": "*"
+    "web-vitals": "*",
+    "zustand": "*"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13",
