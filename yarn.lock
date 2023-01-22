@@ -942,11 +942,11 @@ __metadata:
   linkType: hard
 
 "@next/bundle-analyzer@npm:^13":
-  version: 13.1.2
-  resolution: "@next/bundle-analyzer@npm:13.1.2"
+  version: 13.1.4
+  resolution: "@next/bundle-analyzer@npm:13.1.4"
   dependencies:
     webpack-bundle-analyzer: 4.7.0
-  checksum: 898d4e7369f7f647f3e514a692f223dc23a071b199f8803ba9b9abebd447e17a55c3230b1b4523b3428112dd1cbedc92d58baaae3a47121c9fb8439c00357095
+  checksum: 018402530fce6d3f1b02b32a323f5649bf85f84f8252a69af66c5923ffd956d347a28d5726201de525d34f03a5d68fa01967d51f5c73c7b810bfbfc5d72e29df
   languageName: node
   linkType: hard
 
