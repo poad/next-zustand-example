@@ -1202,9 +1202,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.11.18
-  resolution: "@types/node@npm:18.11.18"
-  checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
+  version: 18.11.19
+  resolution: "@types/node@npm:18.11.19"
+  checksum: d7cd19fcfc59cbdd3f9ba0b4072cb7adc21bd575bd8eb7d7e698975e63564aaa83f03434f32b12331f84f73d0b369d9cbe2371e359d9d7f5c3361f4987f4f7da
   languageName: node
   linkType: hard
 
@@ -3431,9 +3431,9 @@ __metadata:
   linkType: hard
 
 "flow-parser@npm:0.*":
-  version: 0.199.0
-  resolution: "flow-parser@npm:0.199.0"
-  checksum: 2e7e9db527af7fa277116060990f5aebed7a01c179dc82cc8a06cba1f2e1cd307992ee0037594c304a35bad477bfe2c0fba07443be97d2f0ea4e7e1b3f142043
+  version: 0.199.1
+  resolution: "flow-parser@npm:0.199.1"
+  checksum: c0c16aa4510af17dc8644eb9e6108bb223f23971569529389c56502fd4521ac9f04384277165b2adccabedf5d577fdf49e34323ac9a44cdd092d6dc139c987df
   languageName: node
   linkType: hard
 
@@ -5026,9 +5026,9 @@ __metadata:
   linkType: hard
 
 "minipass@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "minipass@npm:4.0.1"
-  checksum: 48eb3141cc247b44f738944cbd789aedeed9288ebdb64c7de9b3bf23e9e71d611381bfecf643d877d25f7ca9f3d5ab7b6757ef6f46282086812ac5372b7cd291
+  version: 4.0.2
+  resolution: "minipass@npm:4.0.2"
+  checksum: 2e4f4caaf85a45c01c6042adc43b5111a6113f62e300acf1db3b193ac3ec6e955bc893d6d8a08635598771a55a0f60487dcac59a1ac39557eb524295d4778c9e
   languageName: node
   linkType: hard
 
