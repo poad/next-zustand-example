@@ -1,4 +1,5 @@
-import React, { PropsWithChildren } from 'react';
+'use client';
+import { ReactNode, useState } from 'react';
 import { Sawarabi_Gothic } from '@next/font/google';
 import {
   AppBar,
@@ -15,14 +16,13 @@ import GitHub from '@mui/icons-material/GitHub';
 import Home from '@mui/icons-material/Home';
 import SvgIcon from '@mui/material/SvgIcon';
 import MenuIcon from '@mui/icons-material/Menu';
-import { useTheme } from '@mui/material/styles';
-import MenuItem from '../MenuItem';
+import { ThemeProvider, useTheme } from '@mui/material/styles';
+import MenuItem from '../components/MenuItem';
+import defaultTheme from './styles/theme';
+import './styles/Layout.modules.css';
+import Head from 'next/head';
 
 const drawerWidth = 240;
-
-interface LayoutProps {
-  container?: Element;
-}
 
 const sawarabi = Sawarabi_Gothic({
   weight: '400',
@@ -30,10 +30,9 @@ const sawarabi = Sawarabi_Gothic({
   display: 'swap',
 });
 
-const Layout = (props: PropsWithChildren<LayoutProps>) => {
-  const { container } = props;
+function Base({ children }: { children: ReactNode }) {
   const theme = useTheme();
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   function handleDrawerToggle() {
     setMobileOpen(!mobileOpen);
@@ -115,7 +114,6 @@ const Layout = (props: PropsWithChildren<LayoutProps>) => {
       display="contents"
     >
       <Drawer
-        container={container}
         variant="temporary"
         anchor="left"
         open={mobileOpen}
@@ -145,9 +143,34 @@ const Layout = (props: PropsWithChildren<LayoutProps>) => {
       <CssBaseline />
       {appBar}
       {drawerBox}
-      {props.children}
+      {children}
     </Box>
   );
-};
+}
 
-export default Layout;
+export default function Layout({ children }: { children: ReactNode }) {
+  return (
+    <html lang="en">
+      <Head>
+        {/* PWA primary color */}
+        <meta name="theme-color" content={defaultTheme.palette.primary.main} />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+      </Head>
+      <body>
+        <ThemeProvider theme={defaultTheme}>
+          <Head>
+            <title>Home</title>
+            <link rel="icon" href="/favicon.ico" />
+          </Head>
+
+          <CssBaseline />
+          <Base>{children}</Base>
+        </ThemeProvider>
+      </body>
+    </html>
+  );
+}

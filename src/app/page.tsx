@@ -1,8 +1,6 @@
-import React from 'react';
+'use client';
 import { Box, Link, Typography } from '@mui/material';
 import { styled } from '@mui/system';
-
-import Layout from '../components/Layout';
 
 const StyledBox = styled(Box)(() => ({
   maxWidth: '880px',
@@ -36,9 +34,9 @@ const CardStyleLink = styled(Link)(() => ({
   },
 }));
 
-const Home = (): JSX.Element => {
+function Home() {
   return (
-    <Layout>
+    <>
       <Box component="main" sx={{ width: '100%', color: '#333' }}>
         <Box
           sx={{
@@ -80,8 +78,8 @@ const Home = (): JSX.Element => {
           </CardStyleLink>
         </StyledBox>
       </Box>
-    </Layout>
+    </>
   );
-};
+}
 
 export default Home;

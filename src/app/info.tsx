@@ -1,11 +1,11 @@
+'use client';
 import Box from '@mui/material/Box';
 import React from 'react';
 import { Counter } from '../components/Counter';
-import Layout from '../components/Layout';
 
 const Info = (): JSX.Element => {
   return (
-    <Layout>
+    <>
       <Box component="main" sx={{ width: '100%', color: '#333' }}>
         <Box
           sx={{
@@ -26,7 +26,7 @@ const Info = (): JSX.Element => {
           </Box>
         </Box>
       </Box>
-    </Layout>
+    </>
   );
 };
 
