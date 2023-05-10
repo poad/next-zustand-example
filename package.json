@@ -6,7 +6,6 @@
     "test": "echo ''",
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
     "analyze": "ANALYZE=true next build",
     "elint-check": "next lint --ext .ts,.js,.tsx,.jsx src",
@@ -17,7 +16,7 @@
     "lint-fix": "yarn prettier-format && yarn elint-fix",
     "clean": "rimraf build",
     "pretest": "yarn build",
-    "all": "yarn lint && yarn build && yarn test && yarn export"
+    "all": "yarn lint && yarn build && yarn test"
   },
   "dependencies": {
     "@emotion/react": "*",
@@ -25,7 +24,6 @@
     "@emotion/styled": "*",
     "@mui/icons-material": "*",
     "@mui/material": "*",
-    "@next/font": "^13",
     "next": "^13",
     "react": "*",
     "react-dom": "*",

@@ -1,6 +1,6 @@
 'use client';
 import { ReactNode, useState } from 'react';
-import { Sawarabi_Gothic } from '@next/font/google';
+import { Sawarabi_Gothic } from 'next/font/google';
 import {
   AppBar,
   Box,
