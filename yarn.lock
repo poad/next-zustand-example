@@ -198,6 +198,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-member-expression-to-functions@npm:^7.22.5":
+  version: 7.22.5
+  resolution: "@babel/helper-member-expression-to-functions@npm:7.22.5"
+  dependencies:
+    "@babel/types": ^7.22.5
+  checksum: 4bd5791529c280c00743e8bdc669ef0d4cd1620d6e3d35e0d42b862f8262bc2364973e5968007f960780344c539a4b9cf92ab41f5b4f94560a9620f536de2a39
+  languageName: node
+  linkType: hard
+
 "@babel/helper-module-imports@npm:^7.16.7, @babel/helper-module-imports@npm:^7.21.4":
   version: 7.21.4
   resolution: "@babel/helper-module-imports@npm:7.21.4"
@@ -232,6 +241,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-optimise-call-expression@npm:^7.22.5":
+  version: 7.22.5
+  resolution: "@babel/helper-optimise-call-expression@npm:7.22.5"
+  dependencies:
+    "@babel/types": ^7.22.5
+  checksum: c70ef6cc6b6ed32eeeec4482127e8be5451d0e5282d5495d5d569d39eb04d7f1d66ec99b327f45d1d5842a9ad8c22d48567e93fc502003a47de78d122e355f7c
+  languageName: node
+  linkType: hard
+
 "@babel/helper-plugin-utils@npm:^7.18.6, @babel/helper-plugin-utils@npm:^7.20.2, @babel/helper-plugin-utils@npm:^7.21.5, @babel/helper-plugin-utils@npm:^7.8.0":
   version: 7.21.5
   resolution: "@babel/helper-plugin-utils@npm:7.21.5"
@@ -247,16 +265,16 @@ __metadata:
   linkType: hard
 
 "@babel/helper-replace-supers@npm:^7.22.1":
-  version: 7.22.1
-  resolution: "@babel/helper-replace-supers@npm:7.22.1"
+  version: 7.22.5
+  resolution: "@babel/helper-replace-supers@npm:7.22.5"
   dependencies:
-    "@babel/helper-environment-visitor": ^7.22.1
-    "@babel/helper-member-expression-to-functions": ^7.22.0
-    "@babel/helper-optimise-call-expression": ^7.18.6
-    "@babel/template": ^7.21.9
-    "@babel/traverse": ^7.22.1
-    "@babel/types": ^7.22.0
-  checksum: 4179090f7010cf9456d17ec354df10f4f647d9b57f6e0b021519d504afca977f67ca39ffe04b47369ea671a744309d0d58f436cb4c18aef000f1df3c0e1162ba
+    "@babel/helper-environment-visitor": ^7.22.5
+    "@babel/helper-member-expression-to-functions": ^7.22.5
+    "@babel/helper-optimise-call-expression": ^7.22.5
+    "@babel/template": ^7.22.5
+    "@babel/traverse": ^7.22.5
+    "@babel/types": ^7.22.5
+  checksum: af29deff6c6dc3fa2d1a517390716aa3f4d329855e8689f1d5c3cb07c1b898e614a5e175f1826bb58e9ff1480e6552885a71a9a0ba5161787aaafa2c79b216cc
   languageName: node
   linkType: hard
 
