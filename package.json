@@ -32,7 +32,7 @@
     "zustand": "^4.3.8"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.6",
+    "@next/bundle-analyzer": "^13.4.7",
     "@next/codemod": "^13.4.6",
     "@types/node": "^20.3.1",
     "@types/react": "^18.2.13",
