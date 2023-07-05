@@ -1372,7 +1372,7 @@ packages:
       '@babel/preset-modules': 0.1.5(@babel/core@7.22.6)
       '@babel/types': 7.22.5
       '@nicolo-ribaudo/semver-v6': 6.3.3
-      babel-plugin-polyfill-corejs2: 0.4.3(@babel/core@7.22.6)
+      babel-plugin-polyfill-corejs2: 0.4.4(@babel/core@7.22.6)
       babel-plugin-polyfill-corejs3: 0.8.2(@babel/core@7.22.6)
       babel-plugin-polyfill-regenerator: 0.5.0(@babel/core@7.22.6)
       core-js-compat: 3.31.0
@@ -2769,15 +2769,15 @@ packages:
       resolve: 1.22.2
     dev: false
 
-  /babel-plugin-polyfill-corejs2@0.4.3(@babel/core@7.22.6):
-    resolution: {integrity: sha512-bM3gHc337Dta490gg+/AseNB9L4YLHxq1nGKZZSHbhXv4aTYU2MD2cjza1Ru4S6975YLTaL1K8uJf6ukJhhmtw==}
+  /babel-plugin-polyfill-corejs2@0.4.4(@babel/core@7.22.6):
+    resolution: {integrity: sha512-9WeK9snM1BfxB38goUEv2FLnA6ja07UMfazFHzCXUb3NyDZAwfXvQiURQ6guTTMeHcOsdknULm1PDhs4uWtKyA==}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/compat-data': 7.22.6
       '@babel/core': 7.22.6
       '@babel/helper-define-polyfill-provider': 0.4.1(@babel/core@7.22.6)
-      semver: 6.3.0
+      '@nicolo-ribaudo/semver-v6': 6.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
