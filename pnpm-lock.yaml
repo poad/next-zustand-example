@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^13.4.16
     version: 13.4.16
   '@next/codemod':
-    specifier: ^13.4.15
-    version: 13.4.15(@babel/preset-env@7.22.10)
+    specifier: ^13.4.16
+    version: 13.4.16(@babel/preset-env@7.22.10)
   '@types/node':
     specifier: ^20.5.0
     version: 20.5.0
@@ -1836,8 +1836,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@next/codemod@13.4.15(@babel/preset-env@7.22.10):
-    resolution: {integrity: sha512-YWAOrolVQ2t6Q+X0hgR5DMi/pnAXG4UjRgWrVboYISC8756sO4F1wqX7Il/qU5Mhpv/70/la83bKUQLIqUMRpQ==}
+  /@next/codemod@13.4.16(@babel/preset-env@7.22.10):
+    resolution: {integrity: sha512-fVbfHWqe+Yc/qR7a21V6gV5iDNI9iXlOmYHoqlopIillKtPm7FWVqLs97zGjkkvpFvdlgxatJhR8BFCuSVRBdg==}
     hasBin: true
     dependencies:
       cheerio: 1.0.0-rc.9
