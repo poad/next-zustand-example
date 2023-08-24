@@ -812,8 +812,8 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
     dev: true
 
-  /@babel/plugin-transform-dynamic-import@7.22.5(@babel/core@7.22.10):
-    resolution: {integrity: sha512-0MC3ppTB1AMxd8fXjSrbPa7LT9hrImt+/fcj+Pg5YMD7UQyWp/02+JWpdnCymmsXwIx5Z+sYn1bwCn4ZJNvhqQ==}
+  /@babel/plugin-transform-dynamic-import@7.22.11(@babel/core@7.22.10):
+    resolution: {integrity: sha512-g/21plo58sfteWjaO0ZNVb+uEOkJNjAaHhbejrnBmu011l/eNDScmkbjCC3l4FKb10ViaGU4aOkFznSu2zRHgA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1288,7 +1288,7 @@ packages:
       '@babel/plugin-transform-destructuring': 7.22.10(@babel/core@7.22.10)
       '@babel/plugin-transform-dotall-regex': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-duplicate-keys': 7.22.5(@babel/core@7.22.10)
-      '@babel/plugin-transform-dynamic-import': 7.22.5(@babel/core@7.22.10)
+      '@babel/plugin-transform-dynamic-import': 7.22.11(@babel/core@7.22.10)
       '@babel/plugin-transform-exponentiation-operator': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-export-namespace-from': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-for-of': 7.22.5(@babel/core@7.22.10)
