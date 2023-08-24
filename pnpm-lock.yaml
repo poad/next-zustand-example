@@ -870,8 +870,8 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
     dev: true
 
-  /@babel/plugin-transform-json-strings@7.22.5(@babel/core@7.22.10):
-    resolution: {integrity: sha512-DuCRB7fu8MyTLbEQd1ew3R85nx/88yMoqo2uPSjevMj3yoN7CDM8jkgrY0wmVxfJZyJ/B9fE1iq7EQppWQmR5A==}
+  /@babel/plugin-transform-json-strings@7.22.11(@babel/core@7.22.10):
+    resolution: {integrity: sha512-CxT5tCqpA9/jXFlme9xIBCc5RPtdDq3JpkkhgHQqtDdiTnTI0jtZ0QzXhr5DILeYifDPp2wvY2ad+7+hLMW5Pw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1285,7 +1285,7 @@ packages:
       '@babel/plugin-transform-export-namespace-from': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-for-of': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-function-name': 7.22.5(@babel/core@7.22.10)
-      '@babel/plugin-transform-json-strings': 7.22.5(@babel/core@7.22.10)
+      '@babel/plugin-transform-json-strings': 7.22.11(@babel/core@7.22.10)
       '@babel/plugin-transform-literals': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-logical-assignment-operators': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-member-expression-literals': 7.22.5(@babel/core@7.22.10)
