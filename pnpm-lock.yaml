@@ -36,8 +36,8 @@ dependencies:
     specifier: ^3.5.1
     version: 3.5.1
   zustand:
-    specifier: ^4.4.7
-    version: 4.4.7(@types/react@18.2.48)(react@18.2.0)
+    specifier: ^4.5.0
+    version: 4.5.0(@types/react@18.2.48)(react@18.2.0)
 
 devDependencies:
   '@next/bundle-analyzer':
@@ -1350,7 +1350,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.4.8(@babel/core@7.23.7)
       babel-plugin-polyfill-corejs3: 0.8.7(@babel/core@7.23.7)
       babel-plugin-polyfill-regenerator: 0.5.5(@babel/core@7.23.7)
-      core-js-compat: 3.35.0
+      core-js-compat: 3.35.1
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -2826,7 +2826,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.7
       '@babel/helper-define-polyfill-provider': 0.4.4(@babel/core@7.23.7)
-      core-js-compat: 3.35.0
+      core-js-compat: 3.35.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3157,8 +3157,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /core-js-compat@3.35.0:
-    resolution: {integrity: sha512-5blwFAddknKeNgsjBzilkdQ0+YK8L1PfqPYq40NOYMYFSS38qj+hpTcLLWwpIwA2A5bje/x5jmVn2tzUMg9IVw==}
+  /core-js-compat@3.35.1:
+    resolution: {integrity: sha512-sftHa5qUJY3rs9Zht1WEnmkvXputCyDBczPnr7QDgL8n3qrF3CMXY4VPSYtOLLiOUJcah2WNXREd48iOl6mQIw==}
     dependencies:
       browserslist: 4.22.2
     dev: true
@@ -7159,12 +7159,12 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zustand@4.4.7(@types/react@18.2.48)(react@18.2.0):
-    resolution: {integrity: sha512-QFJWJMdlETcI69paJwhSMJz7PPWjVP8Sjhclxmxmxv/RYI7ZOvR5BHX+ktH0we9gTWQMxcne8q1OY8xxz604gw==}
+  /zustand@4.5.0(@types/react@18.2.48)(react@18.2.0):
+    resolution: {integrity: sha512-zlVFqS5TQ21nwijjhJlx4f9iGrXSL0o/+Dpy4txAP22miJ8Ti6c1Ol1RLNN98BMib83lmDH/2KmLwaNXpjrO1A==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       '@types/react': '>=16.8'
-      immer: '>=9.0'
+      immer: '>=9.0.6'
       react: '>=16.8'
     peerDependenciesMeta:
       '@types/react':
