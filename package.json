@@ -58,7 +58,7 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "rimraf": "^5.0.5",
-    "swc-loader": "^0.2.4",
+    "swc-loader": "^0.2.6",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
   },
