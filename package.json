@@ -35,7 +35,7 @@
     "@next/bundle-analyzer": "^14.1.4",
     "@next/codemod": "^14.1.4",
     "@types/node": "^20.11.30",
-    "@types/react": "^18.2.72",
+    "@types/react": "^18.2.73",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "@typescript-eslint/parser": "^7.4.0",
     "autoprefixer": "^10.4.19",
@@ -56,10 +56,10 @@
     "next-transpile-modules": "^10.0.1",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.12",
+    "prettier-plugin-tailwindcss": "^0.5.13",
     "rimraf": "^5.0.5",
     "swc-loader": "^0.2.6",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.4.3"
   },
   "engines": {
