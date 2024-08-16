@@ -29,7 +29,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web-vitals": "^3.5.2",
-    "zustand": "^4.5.4"
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.2.5",
@@ -59,7 +59,7 @@
     "prettier-plugin-tailwindcss": "^0.5.14",
     "rimraf": "^5.0.10",
     "swc-loader": "^0.2.6",
-    "tailwindcss": "^3.4.9",
+    "tailwindcss": "^3.4.10",
     "typescript": "^5.5.4"
   },
   "engines": {
@@ -67,5 +67,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.1"
   },
-  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
 }
