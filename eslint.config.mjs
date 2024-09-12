@@ -32,6 +32,7 @@ export default tseslint.config(
       '@stylistic/ts': stylisticTs,
       '@stylistic/jsx': stylisticJsx,
     },
+    // @ts-expect-error ignore type errors
     rules: {
       ...reactPlugin.configs['jsx-runtime'].rules,
       ...hooksPlugin.configs.recommended.rules,
