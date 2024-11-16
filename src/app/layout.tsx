@@ -1,6 +1,7 @@
 'use client';
 import { ReactNode, useState } from 'react';
 import { Sawarabi_Gothic } from 'next/font/google';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import {
   AppBar,
   Box,
@@ -168,7 +169,11 @@ export default function Layout({ children }: { children: ReactNode }) {
           </Head>
 
           <CssBaseline />
-          <Base>{children}</Base>
+          <Base>
+            <AppRouterCacheProvider>
+              {children}
+            </AppRouterCacheProvider>
+          </Base>
         </ThemeProvider>
       </body>
     </html>

@@ -25,6 +25,7 @@ export default tseslint.config(
       './.next/*',
     ],
     plugins: {
+      // @ts-expect-error ignore type errors
       react: reactPlugin,
       'react-hooks': hooksPlugin,
       '@next/next': nextPlugin,
@@ -46,8 +47,10 @@ export default tseslint.config(
       '@stylistic/jsx/jsx-indent': ['error', 2],
       'comma-dangle': ['error', 'always-multiline'],
       'arrow-parens': ['error', 'always'],
-      'semi': ['error', 'always'],
-      'quotes': ['error', 'single'],
+      semi: ['error', 'always'],
+      quotes: ['error', 'single'],
+      '@typescript-eslint/no-unused-expressions': 'off',
+      '@typescript-eslint/no-empty-function': 'off',
     },
   },
 );
