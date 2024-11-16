@@ -3,12 +3,12 @@ import Box from '@mui/material/Box';
 import Add from '@mui/icons-material/Add';
 import Remove from '@mui/icons-material/Remove';
 import IconButton from '@mui/material/IconButton';
-import { useCounterStore } from '../../store';
+import { CounterState, useCounterStore } from '../../store';
 
 export const Counter = () => {
-  const count = useCounterStore((state) => state.count);
-  const increment = useCounterStore((state) => state.increment);
-  const decrement = useCounterStore((state) => state.decrement);
+  const count = useCounterStore((state: CounterState) => state.count);
+  const increment = useCounterStore((state: CounterState) => state.increment);
+  const decrement = useCounterStore((state: CounterState) => state.decrement);
 
   return (
     <Box>

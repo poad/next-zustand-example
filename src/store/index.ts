@@ -1,6 +1,6 @@
-import create from 'zustand';
+import { create } from 'zustand';
 
-interface CounterState {
+export interface CounterState {
   count: number;
   increment: (by: number) => void;
   decrement: (by: number) => void;
