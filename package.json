@@ -27,7 +27,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web-vitals": "^4.2.4",
-    "zustand": "^5.0.1"
+    "zustand": "^5.0.2"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^15.0.3",
@@ -38,7 +38,7 @@
     "@stylistic/eslint-plugin-plus": "^2.11.0",
     "@stylistic/eslint-plugin-ts": "^2.11.0",
     "@types/node": "^22.10.1",
-    "@types/react": "^18.3.12",
+    "@types/react": "^18.3.13",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.16.0",
     "eslint-config-import": "^0.13.0",
