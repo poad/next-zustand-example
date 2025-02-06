@@ -31,8 +31,10 @@
     "zustand": "^5.0.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.19.0",
     "@next/bundle-analyzer": "^15.1.6",
     "@next/codemod": "^15.1.6",
+    "@next/eslint-plugin-next": "^15.1.6",
     "@stylistic/eslint-plugin": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^3.0.1",
     "@stylistic/eslint-plugin-jsx": "^3.0.1",
