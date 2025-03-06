@@ -119,8 +119,8 @@ importers:
         specifier: ^5.2.0
         version: 5.2.0(eslint@9.21.0(jiti@2.4.2))
       pnpm:
-        specifier: ^10.5.2
-        version: 10.5.2
+        specifier: ^10.6.0
+        version: 10.6.0
       postcss:
         specifier: ^8.5.3
         version: 8.5.3
@@ -2769,8 +2769,8 @@ packages:
     resolution: {integrity: sha512-/E57AYkoeQ25qkxMj5PBOVgF8Kiu/h7cYS30Z5+R7WaiCCBfLq58ZI/dSeaEKb9WVJV5n/03QwrN3IeWIFllvw==}
     engines: {node: '>=6'}
 
-  pnpm@10.5.2:
-    resolution: {integrity: sha512-2p3CjNP/QNBZIYgjWrJdMgKt2KIHr77caCIg5KACn/v/RWIQK55uRrTj+ei9U+bQXeSFRLDFfUsBeeIsdtEZmw==}
+  pnpm@10.6.0:
+    resolution: {integrity: sha512-3wE255fbDPp+wQhOd/O9+BusuukGaDL7+Vy6TCFArQXmTzFs3lHOP5nqAKkf/HAtau3TwPRQ+JXj58BS/lc82A==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -6414,7 +6414,7 @@ snapshots:
     dependencies:
       find-up: 3.0.0
 
-  pnpm@10.5.2: {}
+  pnpm@10.6.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
